@@ -1,0 +1,1 @@
+const express=require('express');const app=express();app.get('/',(_,res)=>res.send('<h1>Zama DCA Bot UI</h1>'));app.listen(3000,()=>console.log('UI http://localhost:3000'));
