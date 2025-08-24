@@ -1,0 +1,108 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IIntentVault",
+  "sourceName": "contracts/Interfaces.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "intentId",
+          "type": "uint256"
+        }
+      ],
+      "name": "cancelIntent",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "depositUSDC",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "intentId",
+          "type": "uint256"
+        }
+      ],
+      "name": "markConsumed",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "encAmount",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "encBudget",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "encFreq",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "encUntil",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "encDynRule",
+          "type": "bytes"
+        }
+      ],
+      "name": "storeIntent",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "intentId",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "user",
+          "type": "address"
+        }
+      ],
+      "name": "userActiveIntents",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
